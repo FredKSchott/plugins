@@ -103,7 +103,7 @@ importers:
   packages/commonjs:
     dependencies:
       '@rollup/pluginutils': 3.0.1_rollup@1.27.14
-      estree-walker: 0.6.1
+      estree-walker: 1.0.1
       is-reference: 1.1.4
       magic-string: 0.25.5
       resolve: 1.14.1
@@ -202,7 +202,7 @@ importers:
       '@rollup/plugin-buble': ^0.21.0
       '@rollup/pluginutils': ^3.0.4
       del-cli: ^3.0.0
-      estree-walker: 1.0.1
+      estree-walker: ^1.0.1
       locate-character: ^2.0.5
       magic-string: ^0.25.5
       rollup: ^1.27.14
@@ -277,7 +277,7 @@ importers:
       string-capitalize: ^1.0.1
   packages/pluginutils:
     dependencies:
-      estree-walker: 0.6.1
+      estree-walker: 1.0.1
     devDependencies:
       '@types/estree': 0.0.39
       '@types/jest': 24.0.25
@@ -293,7 +293,7 @@ importers:
       '@types/jest': ^24.0.23
       '@types/micromatch': ^3.1.1
       '@types/node': ^12.12.11
-      estree-walker: ^0.6.1
+      estree-walker: ^1.0.1
       micromatch: ^4.0.2
       rollup-plugin-commonjs: ^10.1.0
       rollup-plugin-node-resolve: ^5.2.0
